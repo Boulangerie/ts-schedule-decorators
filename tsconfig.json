@@ -1,0 +1,15 @@
+{
+  "compileOnSave": false,
+  "src": [
+    "src/index.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "preserveConstEnums": true
+  }
+}
