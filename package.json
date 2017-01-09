@@ -1,6 +1,6 @@
 {
   "name": "ts-schedule-decorators",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "",
   "keywords": [],
   "main": "lib/index.ts",
