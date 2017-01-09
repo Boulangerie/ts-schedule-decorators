@@ -1,8 +1,15 @@
 {
   "name": "ts-schedule-decorators",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Schedule decorator for TypeScript",
-  "keywords": ["schedule", "schedulable", "decorator", "interval", "setInterval", "recurrent"],
+  "keywords": [
+    "schedule",
+    "schedulable",
+    "decorator",
+    "interval",
+    "setInterval",
+    "recurrent"
+  ],
   "main": "lib/index.ts",
   "scripts": {
     "tslint": "tslint lib/**/*.ts",
