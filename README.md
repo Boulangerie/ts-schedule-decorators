@@ -117,7 +117,7 @@ class Cat {
 
   public static stopIt: boolean = false
   
-  @Interval(1000, { stop: self => return self.stopIt })
+  @Interval(1000, { stop: self => self.stopIt })
   public static miaow() {
     console.log('Miaaooow')
     Cat.stopIt = true
