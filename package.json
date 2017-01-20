@@ -10,15 +10,22 @@
     "setInterval",
     "recurrent"
   ],
-  "main": "lib/index.ts",
+  "main": "./dist/index",
+  "typings": "./dist/index",
   "scripts": {
     "tslint": "tslint lib/**/*.ts",
+    "build": "tsc",
     "test": "mocha -r ts-node/register lib/*.spec.ts lib/**/*.spec.ts",
     "cover": "nyc npm t",
     "bump": "npm run tslint && npm version patch && git push --tags origin master && npm publish",
     "bump:minor": "npm run tslint && npm version minor && git push --tags origin master && npm publish",
     "bump:major": "npm run tslint && npm version major && git push --tags origin master && npm publish"
   },
+  "files": [
+    "src",
+    "dist",
+    "README.md"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Boulangerie/ts-schedule-decorators.git"

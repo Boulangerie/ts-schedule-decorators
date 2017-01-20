@@ -1,15 +1,25 @@
 {
   "compileOnSave": false,
-  "src": [
-    "src/index.ts"
+  "files": [
+    "./lib/index.ts"
   ],
   "exclude": [
     "node_modules"
   ],
   "compilerOptions": {
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "module": "commonjs",
+    "target": "es5",
     "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
     "noImplicitAny": false,
     "removeComments": true,
-    "preserveConstEnums": true
+    "preserveConstEnums": true,
+    "declaration": true,
+    "noLib": false,
+    "outDir": "./dist",
+    "pretty": true
   }
 }

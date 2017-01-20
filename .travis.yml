@@ -15,6 +15,7 @@ script:
   - npm run tslint
   - npm run test
   - npm run cover
+  - npm run build
 
 before_script:
   - mkdir -p reports
