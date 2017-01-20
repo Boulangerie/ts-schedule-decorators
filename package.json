@@ -1,6 +1,6 @@
 {
   "name": "ts-schedule-decorators",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Schedule decorator for TypeScript",
   "keywords": [
     "schedule",
