@@ -6,7 +6,4 @@ describe('Schedule decorators index', () => {
     expect(Schedulable).to.be.a('function')
     expect(Interval).to.be.a('function')
   })
-  it('should ok', () => {
-    expect(true).to.be.true
-  })
 })
