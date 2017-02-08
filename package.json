@@ -22,7 +22,7 @@
     "bump:major": "npm run tslint && npm run build && npm version major && git push --tags origin master && npm publish"
   },
   "files": [
-    "src",
+    "lib",
     "dist",
     "README.md"
   ],
